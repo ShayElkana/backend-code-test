@@ -2,7 +2,7 @@ const routes = require('./routes')
 const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
-const port = 8061
+const port = 8080
 const ipAddress = '127.0.0.1'
 
 const server = require('http').Server(app)
